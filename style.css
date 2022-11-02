@@ -3,7 +3,7 @@ body {
   background-image: url("https://i.imgur.com/coiv1ye.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center center;
   color: #575F7D;
   font-family: 'Lora', serif;
   font-size: 17px;
@@ -98,6 +98,8 @@ a:hover {
   border-radius: 5em;
   border: 1px dotted rgb(255, 255, 255);
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding-top: 1em;
+  padding-bottom: 1em;
   padding-right: 3em;
   padding-left: 3em;
   margin: 0 auto;
