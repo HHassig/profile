@@ -1,6 +1,9 @@
 /* Colors and fonts */
 body {
-  background: #F7F9FC;
+  background-image: url("https://i.imgur.com/coiv1ye.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   color: #575F7D;
   font-family: 'Lora', serif;
   font-size: 17px;
