@@ -11,7 +11,7 @@ body {
 }
 h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
-  color: #222d53;
+  color: #ffffff;
 }
 h1 {
   font-size: 3em;
@@ -36,10 +36,22 @@ a:hover {
   color: black;
 }
 
+#header_table {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: separate;
+  border-spacing: 1.5em;
+}
 
+#header_table tr {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* Custom design with class (99% of your design) */
 .container {
-  width: 1000px;
+  width: 70%;
   text-align: center;
   margin: 0 auto;
 }
@@ -47,31 +59,46 @@ a:hover {
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
-    width: 700px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
   }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
-    width: 500px;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
   }
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 300px;
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
   }
 }
 
 .card-white {
   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
   text-align: center;
-  background-color: rgba(73, 170, 175, 0.25);
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
-  padding: 30px;
   margin: 5px 0;
   border: 1px solid lightgrey;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+.top_td {
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.33);
+  border-radius: 5em;
+  border: 1px dotted rgb(255, 255, 255);
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 3em;
+  margin: 0 auto;
 }
 
 .img-circle {
@@ -101,7 +128,7 @@ a:hover {
   color: rgb(230, 230, 230);
 }
 .list-inline i:hover {
-  color: black;
+  color: rgb(13, 221, 203);
 }
 
 /* Design adjustments using id (1% design remaining) */
