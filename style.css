@@ -99,16 +99,38 @@ a:hover {
 @media (max-width: 600px) {
   /* For a screen < 600px, this CSS will be read */
   .container {
-    width: 60%;
+    width: 80%;
     text-align: center;
     margin: 0 auto;
   }
   .cards-smaller {
     display: grid;
     grid-template-columns: 1fr;
+    width: auto;
   }
   .card {
-    width: 30%;
+    width: auto;
+  }
+}
+@media (max-width: 480px) {
+  /* For a screen < 480px, this CSS will be read */
+  .container {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .cards-smaller {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: auto;
+  }
+  .card {
+    width: auto;
+    border-radius: 1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
   }
 }
 
