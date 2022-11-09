@@ -35,14 +35,6 @@ a:hover {
   color: black;
 }
 
-#header_table {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  border-collapse: separate;
-  border-spacing: 1.5em;
-}
-
 .card-white {
   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
   text-align: center;
@@ -58,80 +50,6 @@ a:hover {
   display: grid;
   grid-template-columns: 3fr 3fr;
   gap: 2em;
-}
-
-
-/* Custom design with class (99% of your design) */
-.container {
-  width: 80%;
-  text-align: center;
-  padding-top: 2.5em;
-  padding-bottom: 0.5em;
-  margin: 0 auto;
-}
-
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 80%;
-    text-align: center;
-    margin: 0 auto;
-  }
-  .cards-smaller {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
-  }
-}
-@media (max-width: 850px) {
-  /* For a screen < 850px, this CSS will be read */
-  .container {
-    width: 80%;
-    text-align: center;
-    margin: 0 auto;
-  }
-  .cards-smaller {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0.5em;
-  }
-}
-@media (max-width: 600px) {
-  /* For a screen < 600px, this CSS will be read */
-  .container {
-    width: 80%;
-    text-align: center;
-    margin: 0 auto;
-  }
-  .cards-smaller {
-    display: grid;
-    grid-template-columns: 1fr;
-    width: auto;
-  }
-  .card {
-    width: auto;
-  }
-}
-@media (max-width: 480px) {
-  /* For a screen < 480px, this CSS will be read */
-  .container {
-    width: 80%;
-    text-align: center;
-    margin: 0 auto;
-  }
-  .cards-smaller {
-    display: grid;
-    grid-template-columns: 1fr;
-    width: auto;
-  }
-  .card {
-    width: auto;
-    border-radius: 1em;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
-  }
 }
 
 .card {
@@ -176,10 +94,87 @@ a:hover {
   color: rgb(230, 230, 230);
 }
 .list-inline i:hover {
-  color: rgb(13, 221, 203);
+  color: rgb(0, 0, 0);
 }
 
 /* Design adjustments using id (1% design remaining) */
 #introduction p {
   margin-bottom: 40px;
+}
+
+
+
+/* Custom design with class (99% of your design) */
+.container {
+  width: 80%;
+  text-align: center;
+  padding-top: 2.5em;
+  padding-bottom: 0.5em;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .cards-smaller {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .6em;
+    width: 100%;
+  }
+  .list-inline i {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+}
+@media (max-width: 500px) {
+  /* For a screen < 500px, this CSS will be read */
+  .container {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .cards-smaller {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .4em;
+    width: 75%;
+  }
+  .list-inline i {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 1em;
+    font-weight: 600;
+  }
+}
+@media (max-width: 340px) {
+  /* For a screen < 340px, this CSS will be read */
+  .container {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .cards-smaller {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .2em;
+    width: 20%;
+  }
+  .list-inline i {
+    font-size: 15px;
+  }
+  h3 {
+    font-size: .4em;
+    font-weight: 600;
+  }
 }
