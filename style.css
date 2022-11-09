@@ -133,6 +133,9 @@ a:hover {
     font-size: 1.5em;
     font-weight: 600;
   }
+  .img-circle {
+    width: 75%;
+  }
 }
 @media (max-width: 500px) {
   /* For a screen < 500px, this CSS will be read */
@@ -155,6 +158,9 @@ a:hover {
     font-size: 1em;
     font-weight: 600;
   }
+  .img-circle {
+    width: 50%;
+  }
 }
 @media (max-width: 340px) {
   /* For a screen < 340px, this CSS will be read */
@@ -176,5 +182,7 @@ a:hover {
   h3 {
     font-size: .4em;
     font-weight: 600;
+  }.img-circle {
+    width: 25%;
   }
 }
