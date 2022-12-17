@@ -42,7 +42,7 @@ a:hover {
   border-radius: 5em;
   margin: .25em 0;
   /* border: 1px solid lightgrey; */
-  padding: 1em;
+  padding: 1em 1em 4em 1em;
 }
 
 .cards-smaller {
@@ -96,7 +96,7 @@ a:hover {
   text-align: center;
   padding-top: 2.5em;
   padding-bottom: 0.5em;
-  margin: 0 auto;
+  margin: auto;
 }
 
 @media (max-width: 960px) {
