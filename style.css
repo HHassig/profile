@@ -135,7 +135,7 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr;
     gap: .4em;
-    width: 75%;
+    width: auto;
   }
   .list-inline i {
     font-size: 1.5em;
