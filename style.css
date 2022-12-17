@@ -147,6 +147,9 @@ a:hover {
   .img-circle {
     width: 60%;
   }
+  .card {
+    padding: 0.5em;
+  }
 }
 @media (max-width: 340px) {
   /* For a screen < 340px, this CSS will be read */
