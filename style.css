@@ -64,11 +64,12 @@ a:hover {
   padding-left: 3em;
   margin: 0 auto;
   width: 70%;
+
 }
 
 .img-circle {
   border-radius: 50%;
-  width: 75%;
+  width: 50%;
 }
 .list-inline {
   list-style: none;
