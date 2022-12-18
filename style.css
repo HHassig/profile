@@ -148,7 +148,8 @@ a:hover {
     width: 60%;
   }
   .card {
-    padding: 0.5em;
+    padding: 1em;
+    width: auto;
   }
 }
 @media (max-width: 340px) {
